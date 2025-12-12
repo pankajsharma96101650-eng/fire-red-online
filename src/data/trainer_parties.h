@@ -10860,3 +10860,18 @@ static const struct TrainerMonNoItemDefaultMoves sParty_CueBallPaxton[] = {
         .species = SPECIES_MUK,
     },
 };
+static const struct TrainerMon sParty_Pankaj[] = {
+    {
+        .lvl = 100,                   // MAX SAFE LEVEL
+        .species = SPECIES_RAYQUAZA,  // Standard Rayquaza
+        .heldItem = ITEM_LEFTOVERS,   // Heals every turn (OP)
+        .moves = {
+            MOVE_HYPER_BEAM,
+            MOVE_OUTRAGE,
+            MOVE_EARTHQUAKE,
+            MOVE_EXTREME_SPEED
+        },
+        .iv = 31,                     // Perfect Stats (0-31)
+        .ev = {255, 255, 255, 255, 255, 255} // MAX Stats everywhere
+    }
+};

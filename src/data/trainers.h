@@ -7422,4 +7422,16 @@ const struct Trainer gTrainers[] = {
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_CueBallPaxton),
     },
+    [TRAINER_PANKAJ] = {
+        // This flag tells the game: "Use the custom moves I picked (Hyper Beam), don't auto-generate them."
+        .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET, 
+        
+        .trainerClass = TRAINER_CLASS_CHAMPION, // Changed from COOLTRAINER for Boss Music
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_RED, // Keeps the Red sprite
+        .authName = _("PANKAJ"),
+        .gender = MALE,
+        .partySize = ARRAY_COUNT(sParty_Pankaj),
+        .party = sParty_Pankaj,
+    },
 };

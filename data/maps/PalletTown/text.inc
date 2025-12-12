@@ -64,4 +64,8 @@ PalletTown_Text_OakYouEnjoyingTraveling::
     .string "exotic locales.\p"
     .string "Good for you, good for you.\n"
     .string "Hohoho.$"
+PalletTown_Text_ImNew:
+    .string "Hi this mod is made by aepnkj\n"
+    .string "Support his work!"
+
 

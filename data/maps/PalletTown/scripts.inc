@@ -447,3 +447,13 @@ PalletTown_EventScript_SignLadyStartShowSign::
 	call PalletTown_EventScript_SignLadyShowSign
 	release
 	end
+PalletTown_EventScript_SignLady::
+    lock
+    faceplayer
+    msgbox PalletTown_Text_ImNew, MSGBOX_DEFAULT
+    release
+    end
+
+PalletTown_Text_ImNew:
+    .string "Hi this mod is made by aepnkj\n"
+    .string "Support his work!"
