@@ -27,7 +27,7 @@
   ],
   "object_events": [
     {
-      "local_id": "TRAINER_PANKAJ",
+      "local_id": "LOCALID_PALLET_SIGN_LADY",
       "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_WOMAN_1",
       "x": 7,
